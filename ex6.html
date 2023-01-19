@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: white;
+      }
+
+      .header,
+      .footer {
+        background-color: grey;
+        color: white;
+        padding: 15px;
+      }
+
+      .column {
+        float: left;
+        padding: 15px;
+      }
+
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .menu {
+        width: 25%;
+      }
+
+      .content {
+        width: 75%;
+      }
+
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: #33b5e5;
+        color: #ffffff;
+      }
+
+      .menu li:hover {
+        background-color: #0099cc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>
+        London <img src="/image/london.jpg" width="100" />
+        <a href="https://www.london.gov.uk/">Visit London Website</a>
+      </h1>
+    </div>
+
+    <div class="clearfix">
+      <div class="column menu">
+        <ul>
+          <li>The Flight</li>
+          <li>The City</li>
+          <li>The Island</li>
+          <li>The Food</li>
+        </ul>
+      </div>
+
+      <div class="column content">
+        <h1>The City</h1>
+        <p>
+          London is the capital and largest city of England and the United
+          Kingdom, with a population of just under 9 million.[1] It stands on
+          the River Thames in south-east England at the head of a 50-mile (80
+          km) estuary down to the North Sea, and has been a major settlement for
+          two millennia.[9] The City of London, its ancient core and financial
+          centre, was founded by the Romans as Londinium and retains its
+          medieval boundaries.[note 1][10] The City of Westminster, to the west
+          of the City of London, has for centuries hosted the national
+          government and parliament. Since the 19th century,[11] the name
+          "London" has also referred to the metropolis around this core,
+          historically split between the counties of Middlesex, Essex, Surrey,
+          Kent, and Hertfordshire,[12] which largely comprises Greater
+          London,[13] governed by the Greater London Authority.[note 2][14]
+        </p>
+        <p>
+          You will learn more about web layout and responsive web pages in a
+          later chapter.
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Footer Text</p>
+    </div>
+  </body>
+</html>
