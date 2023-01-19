@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Floats</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .box {
+        float: left;
+        width: 33.33%;
+        padding: 50px;
+      }
+      .clearfix:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>bilionare profile</h2>
+    <p>bilionare profile</p>
+    <div class="clearfix">
+      <div class="box" style="background-color: #bbb">
+        <img src="/image/elon musk.jpg" width="300" height="300" />
+        <p>
+          Elon Reeve Musk FRS (/ˈiːlɒn/ EE-lon; born June 28, 1971) is a
+          business magnate and investor. He is the founder, CEO and chief
+          engineer of SpaceX; angel investor, CEO and product architect of
+          Tesla, Inc.; owner and CEO of Twitter, Inc.; founder of The Boring
+          Company; co-founder of Neuralink and OpenAI; and president of the
+          philanthropic Musk Foundation. With an estimated net worth of around
+          $139 billion as of December 23, 2022, primarily from his ownership
+          stakes in Tesla and SpaceX,[4][5] Musk is the second-wealthiest person
+          in the world, according to both the Bloomberg Billionaires Index and
+          Forbes's real-time billionaires list.[6][7]
+        </p>
+      </div>
+      <div class="box" style="background-color: #ccc">
+        <img src="/image/jeff-bezos-.jpg" width="300" height="300" />
+        <p>
+          Jeffrey Preston Bezos (/ˈbeɪzoʊs/ BAY-zohss;[2] né Jorgensen; born
+          January 12, 1964) is an American entrepreneur, media proprietor,
+          investor, and commercial astronaut.[3][4] He is the founder, executive
+          chairman, and former president and CEO of Amazon. With a net worth of
+          US$109.3 billion as of January 2023, Bezos is the fifth-wealthiest
+          person in the world and was the wealthiest from 2017 to 2021 according
+          to both Bloomberg's Billionaires Index and Forbes.[5.
+        </p>
+      </div>
+      <div class="box" style="background-color: #ddd">
+        <img src="/image/bill gates.jpg" width="300" height="300" />
+        <p>
+          William Henry Gates III (born October 28, 1955) is an American
+          business magnate and philanthropist. He is a co-founder of Microsoft,
+          along with his late childhood friend Paul Allen.[2][3] During his
+          career at Microsoft, Gates held the positions of chairman, chief
+          executive officer (CEO), president and chief software architect, while
+          also being the largest individual shareholder until May 2014.[4] He
+          was a major entrepreneur of the microcomputer revolution of the 1970s
+          and 1980s.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
